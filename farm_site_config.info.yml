@@ -6,3 +6,4 @@ core_version_requirement: ^9
 dependencies:
   - farm_role
   - role_delegation:role_delegation
+  - userprotect:userprotect
