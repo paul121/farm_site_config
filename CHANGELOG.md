@@ -10,3 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add basic farm_admin role.
+- Add role_delegation to allow farm_admin to delegate users other managed roles.

@@ -1,0 +1,3 @@
+farm_site_config:
+  permission_callbacks:
+    - Drupal\farm_site_config\Permissions::permissions
