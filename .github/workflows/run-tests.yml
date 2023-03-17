@@ -16,11 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       COMPOSE_FILE: docker-compose.testing.yml
-      # Edit this to match your module name.
-      MODULE_NAME: farm_contrib_template
+      MODULE_NAME: farm_site_config
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Start containers
         run: docker-compose up -d
       - name: Include module dependencies
