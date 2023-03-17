@@ -1,15 +1,8 @@
-# farm_contrib_template
-Template for farmOS contrib modules.
+# farm_site_config
+Module to help configure and administer farmOS sites.
 
 This module is an add-on for the [farmOS](http://drupal.org/project/farm)
 distribution.
-
-This repository can be used as a template for starting new
-farmOS contrib modules. It provides the following:
-- Standardized README.md template
-- Example module structure.
-- Github action for automated tests:
-  - PHPCS and PHPUnit
 
 ## Getting started
 
@@ -36,7 +29,7 @@ Document features the module provides:
 ## Maintainers
 
 Current maintainers:
-- Full name (handle) - [profile](https://farmos.org)
+- Paul Weidner [@paul121](https://github.com/paul121)
 
 ## Sponsors
 This project has been sponsored by:
